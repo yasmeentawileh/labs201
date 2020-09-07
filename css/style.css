@@ -1,0 +1,33 @@
+body{
+    background-color:honeydew;
+}
+header{
+    background-color:rgb(134, 235, 211);
+    align-content:center;
+display: inline;
+align-items: center;
+color:white;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align:center;
+    background-color: lightcoral;
+    padding:10px;
+color:white;
+display: inline-block;
+margin-left:400px;
+border-radius: 5px;
+font-family: 'Times New Roman', Times, serif;
+}
+p{
+    background-color: white;
+    display:inline-block;
+    color:lightcoral;
+    margin-left:250px;
+    margin-right: 100px;
+   border-style:dashed;
+   border: 2px dashed lightcoral;
+   padding:6px;
+   font-family: 'Times New Roman', Times, serif;
+}
