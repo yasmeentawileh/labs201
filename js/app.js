@@ -35,7 +35,7 @@ if(excel ==='no'||excel==='n'){
   console.log('correct i have excel certificate');
 }
 var jordan= prompt('am i jordanion?');jordan.toLowerCase;
-if(jordan ==='n'||jordan==='n'){
+if(jordan ==='n'||jordan==='no'){
   alert('wrong i am jordanion');
   console.log('wrong i am jordanion');
 }else{
