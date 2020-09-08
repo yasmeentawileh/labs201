@@ -73,22 +73,27 @@ span{
 
 }
 ol{
-    width:50%;
+    width:40%;
     overflow:hidden;
     background-color:white ;
-    margin: 20px auto;
+    margin: 10px auto;
     box-shadow: -10px 10px 20px lightcoral;
     color:lightcoral;
     font-size: 17px; 
     font-size: 17px;
     line-height:1cm;
-    padding:40px;
+    padding:100px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+   
+
+}
+ol li{
+display:inline;
+margin:40px;
 }
 
-ol img{
-    float:right;
-}
+
+
 h2{
     text-align:center;
     background-color: lightcoral;
