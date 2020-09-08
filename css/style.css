@@ -72,7 +72,7 @@ span{
     font-size: 17px;
 
 }
-ol{
+/* ol{
     width:40%;
     overflow:hidden;
     background-color:white ;
@@ -86,8 +86,23 @@ ol{
     font-family:Georgia, 'Times New Roman', Times, serif;
    
 
+} */
+.ol{
+    width:40%;
+    overflow:hidden;
+    background-color:white ;
+    margin: 10px auto;
+    box-shadow: -10px 10px 20px lightcoral;
+    color:lightcoral;
+    font-size: 17px; 
+    font-size: 17px;
+    line-height:1cm;
+    padding:100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
 }
 ol li{
+list-style-image: url('https://www.graphicsprings.com/filestorage/stencils/cfbbcbcba7e52c00cbdc34cd0fe67672.png?width=50&height=50');
 display:inline;
 margin:40px;
 }
