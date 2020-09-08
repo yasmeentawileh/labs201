@@ -13,15 +13,28 @@ font-family: 'Times New Roman', Times, serif;
 h1{
     text-align:center;
     background-color: lightcoral;
-    padding:10px;
+    padding:15px;
 color:white;
 display: inline-block;
-margin-left:400px;
+margin-left:500px;
+width:300px;
+height: 50px;
 border-radius: 5px;
-font-family: 'Times New Roman', Times, serif;
+font-family:'Times New Roman', Times, serif
 }
 p{
-    background-color: white;
+    width:50%;
+    overflow:hidden;
+    background-color:white ;
+    margin: 20px auto;
+    box-shadow: -10px 10px 20px lightcoral;
+    color:lightcoral;
+    font-size: 17px;
+line-height:1cm;
+height: 100px;
+padding:20px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+    /* background-color: white;
     display:inline-block;
     color:lightcoral;
     margin-left:250px;
@@ -30,4 +43,62 @@ p{
    border: 2px dashed lightcoral;
    padding:6px;
    font-family: 'Times New Roman', Times, serif;
+   font-size: 17px; */
+}
+/* ul li {
+    background-color:white ;
+    display:inline-block;
+    color:lightcoral;
+   border-style:dashed;
+   border: 2px dashed lightcoral;
+   padding:6px;
+   font-family: 'Times New Roman', Times, serif;
+   margin-left:250px;
+   margin-right: 100px;
+   margin-bottom:10px ;
+   font-size: 17px;
+   
+} */
+span{
+    font-weight: bold;
+}
+.containor{
+    width:50%;
+    overflow:hidden;
+    background-color:white ;
+    margin: 20px auto;
+    box-shadow: -10px 10px 20px lightcoral;
+    color:lightcoral;
+    font-size: 17px;
+
+}
+ol{
+    width:50%;
+    overflow:hidden;
+    background-color:white ;
+    margin: 20px auto;
+    box-shadow: -10px 10px 20px lightcoral;
+    color:lightcoral;
+    font-size: 17px; 
+    font-size: 17px;
+    line-height:1cm;
+    padding:40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+ol img{
+    float:right;
+}
+h2{
+    text-align:center;
+    background-color: lightcoral;
+    padding:15px;
+color:white;
+display: inline-block;
+margin-left:500px;
+width:300px;
+height: 50px;
+border-radius: 5px;
+font-family:'Times New Roman', Times, serif
+
 }
