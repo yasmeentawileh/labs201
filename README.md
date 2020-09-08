@@ -1,1 +1,2 @@
-# labs201
+# welcome to my website
+in this web page you will see informations abut me some of it about my education and the others is some information about me in this site i use a javascript to make a guessing game so before you enter the site you will answer some questions about me.
