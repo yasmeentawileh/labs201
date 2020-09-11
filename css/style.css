@@ -1,16 +1,27 @@
+
 body{
-    background-color:honeydew;
+    background-color:whitesmoke;
+    margin:0px;
+    padding:0px;
+   
 }
 header{
-    background-color:rgb(134, 235, 211);
-    align-content:center;
-display: inline;
-align-items: center;
-color:white;
-text-align: center;
-font-family: 'Times New Roman', Times, serif;
+    background-image: url('https://s3-eu-west-1.amazonaws.com/images.linnlive.com/0d5180a37a8de3cf76052639384dd66f/f3f5fc9d-303f-427b-a8cc-b107fc19135c.jpg');
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    color:white;
+    font-family: cursive;
+    display: inline-block;
+height:200px;
 }
+#welcome{
+    font-size:70px;
+    padding: 75px;
+}
+
 h1{
+
     text-align:center;
     background-color: lightcoral;
     padding:15px;
@@ -18,9 +29,13 @@ color:white;
 display: inline-block;
 margin-left:500px;
 width:300px;
-height: 50px;
+height: 60px;
 border-radius: 5px;
 font-family:'Times New Roman', Times, serif
+}
+h1:hover{
+    background-color: white;
+    color: lightcoral;
 }
 p{
     width:50%;
@@ -33,32 +48,12 @@ p{
 line-height:1cm;
 height: 100px;
 padding:20px;
-font-family:Georgia, 'Times New Roman', Times, serif;
-    /* background-color: white;
-    display:inline-block;
-    color:lightcoral;
-    margin-left:250px;
-    margin-right: 100px;
-   border-style:dashed;
-   border: 2px dashed lightcoral;
-   padding:6px;
-   font-family: 'Times New Roman', Times, serif;
-   font-size: 17px; */
+font-family:'Times New Roman', Times, serif   
+} 
+p:hover{
+    color:white;
+    background-color: lightcoral;
 }
-/* ul li {
-    background-color:white ;
-    display:inline-block;
-    color:lightcoral;
-   border-style:dashed;
-   border: 2px dashed lightcoral;
-   padding:6px;
-   font-family: 'Times New Roman', Times, serif;
-   margin-left:250px;
-   margin-right: 100px;
-   margin-bottom:10px ;
-   font-size: 17px;
-   
-} */
 span{
     font-weight: bold;
 }
@@ -72,53 +67,30 @@ span{
     font-size: 17px;
 
 }
-/* ol{
-    width:40%;
-    overflow:hidden;
-    background-color:white ;
-    margin: 10px auto;
-    box-shadow: -10px 10px 20px lightcoral;
-    color:lightcoral;
-    font-size: 17px; 
-    font-size: 17px;
-    line-height:1cm;
-    padding:100px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-   
-
-} */
-.ol{
-    width:40%;
-    overflow:hidden;
-    background-color:white ;
-    margin: 10px auto;
-    box-shadow: -10px 10px 20px lightcoral;
-    color:lightcoral;
-    font-size: 17px; 
-    font-size: 17px;
-    line-height:1cm;
-    padding:100px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-   
-}
-ol li{
-list-style-image: url('https://www.graphicsprings.com/filestorage/stencils/cfbbcbcba7e52c00cbdc34cd0fe67672.png?width=50&height=50');
-display:inline;
-margin:40px;
-}
-
-
-
-h2{
-    text-align:center;
+.containor:hover{
+    color:white;
     background-color: lightcoral;
-    padding:15px;
-color:white;
-display: inline-block;
-margin-left:500px;
-width:300px;
-height: 50px;
-border-radius: 5px;
-font-family:'Times New Roman', Times, serif
-
 }
+
+.ol{
+    width:50%;
+   height: 90px;
+    background-color:white ;
+    margin: 10px auto;
+    box-shadow: -10px 10px 20px lightcoral;
+    color:lightcoral; 
+    font-size: 17px;
+    line-height:1cm;
+    padding:30px;
+    font-family:'Times New Roman', Times, serif;
+}
+.ol:hover{
+    color:white;
+    background-color: lightcoral;
+}
+
+ol li{
+display:inline;
+margin:20px;
+}
+
